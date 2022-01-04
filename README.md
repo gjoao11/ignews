@@ -12,8 +12,6 @@
 
 ---
 
-## Screenshots
-
 ![Home](.github/screenshots/home.png)
 ![Posts](.github/screenshots/posts.png)
 
@@ -26,6 +24,26 @@
 - [Stripe](https://stripe.com/br)
 - [Sass](https://sass-lang.com/)
 - [Node.JS](https://nodejs.org/en/)
+
+## Instalação
+
+> Adicione as variáveis de ambiente em um arquivo `.env.local`. Veja o `.env.local.example`.
+
+```bash
+  # Clone o repositório
+  $ https://github.com/gjoao11/ignews.git
+
+  # Acesse o diretório do app
+  $ cd ignews
+
+  # Instale as dependências
+  $ yarn
+
+  #Inicie a aplicação
+  $ yarn dev
+
+  # acesse `http://localhost:3000`
+```
 
 ## Licença
 
